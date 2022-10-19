@@ -497,6 +497,7 @@ body{
 
 .carousel_wrapper .carousel button.slick-prev{
   left: 0;
+  z-index: 9;
 }
 
 .carousel_wrapper .carousel .slick-dots{
