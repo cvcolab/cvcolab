@@ -284,29 +284,6 @@ body{
   overflow-x: auto;
 }
 
-.footer_section{
-  background-color: #ebe8ff;
-}
-
-.footer_heading{
-  font-family: 'Montserrat', sans-serif;
-  font-size: 22px;
-  font-weight: 500;
-  color: #000;
-}
-
-.footer_section li{
-  list-style: none;
-  padding: 3px 0px;
-}
-
-.footer_link{
-  font-family: 'Montserrat', sans-serif;
-  font-size: 12px;
-  color: #000;
-  text-decoration: auto;
-}
-
 .searches_input input{
   font-family: 'Montserrat', sans-serif;
   font-size: 16px;
@@ -540,6 +517,42 @@ body{
   height: 5px;
   border-radius: 50px;
   background-color: #6c3099;
+}
+
+/*footer section*/
+.footer_section{
+  background-color: #ebe8ff;
+}
+
+.footer_heading{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 22px;
+  font-weight: 500;
+  color: #000;
+}
+
+.footer_section li{
+  list-style: none;
+  padding: 3px 0px;
+}
+
+.footer_link{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 12px;
+  color: #000;
+  text-decoration: auto;
+}
+
+.social_media_cont{
+  margin-top: 110px;
+}
+
+.social_media_cont a img{
+  padding-right: 8px;
+}
+
+.need_healp_btn_cont{
+  margin-top: 20px;
 }
 
 
