@@ -1,8 +1,5 @@
-
-// slick
-
 $(document).ready(function(){
-  $('.carousel').slick({
+  $('#tailoredResumeCarousel').slick({
     slidesToShow: 1,
     dots:true,
     centerMode: true,
