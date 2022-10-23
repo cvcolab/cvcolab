@@ -1,1 +1,231 @@
-index1style.css
+.build_your_container p.resume_samples{
+	font-size: 22px;
+	font-weight: 500;
+	color: #ed1e79;
+	font-family: 'Montserrat', sans-serif;
+	margin-bottom: 10px;
+}
+
+.build_your_container p{
+	font-size: 16px;
+	color: #8a8a8a;
+	margin-bottom: 15px;
+}
+
+.provide_cover_cont{
+	margin-bottom: 10px;
+}
+
+.checkbox_label {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  cursor: pointer;
+  font-size: 22px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  font-size: 22px;
+  font-weight: bold;
+  color: #000;
+}
+.checkbox_label input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+.checkbox_label .checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 24px;
+  width: 24px;
+  border-radius: 4px;
+  border: solid 1px #000;
+}
+.checkbox_label .checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+.checkbox_label input:checked ~ .checkmark:after {
+  display: block;
+}
+.checkbox_label .checkmark:after {
+	left: 8px;
+	top: 3px;
+	width: 7px;
+	height: 12px;
+	border: solid #ed1e79;
+	border-width: 0 2px 2px 0;
+	-webkit-transform: rotate(45deg);
+	-ms-transform: rotate(45deg);
+	transform: rotate(45deg);
+}
+.list_provide_cover_cont{
+	margin-bottom: 95px;
+}
+.list_provide_cover_cont ul {
+	padding: 0px;
+}
+
+.list_provide_cover_cont ul li{
+	position: relative;
+	font-size: 18px;
+    line-height: 1.5;
+    font-weight: 400;
+    color: #000;
+    margin-bottom: 10px;
+    list-style: none;
+    padding-left: 35px;
+}
+
+.list_provide_cover_cont ul li::marker{
+	display: none;
+}
+.list_provide_cover_cont ul li:after{
+	content: "";
+	position: absolute;
+	left: 2px;
+    top: 6px;
+    width: 10px;
+    height: 10px;
+    border: 1px solid #000000;
+    border-radius: 50%;
+}
+.find_status_text{
+	position: absolute;
+	left: 0px;
+    bottom: 18px;
+	font-size: 16px;
+	font-weight: 500;
+	color: #000;
+}
+.carousel_wrapper .carousel .slick-dots{
+	margin-left: 55px;
+}
+.product_list_carousel_cont .carousel_wrapper .carousel{
+	width: 100%;
+}
+
+.product_list_carousel_cont .carousel_wrapper .carousel .slick-list{
+	padding: 0px !important;
+}
+.product_list_carousel_cont .carousel_wrapper .slick-slide{
+	margin: 0px;
+}
+
+.heading_h5{
+	font-size: 22px;
+	font-weight: 500;
+	color: #000;
+}
+.heading_blue_h5{
+	font-size: 22px;
+	font-weight: 500;
+	color: #6c3099;
+}
+.sample_resume_btn_cont {
+	margin-bottom: 20px;
+}
+.sample_resume_btn_cont button{
+	padding: 8px;
+	border-radius: 15.5px;
+	border: solid 1px #e5e5e5;
+	font-size: 12px;
+	font-weight: 500;
+	color: #6c3099;
+	margin: 0px 5px 10px 0px;
+}
+.carousel_wrapper .carousel#sampleResumeCarousel  .slick-dots, 
+.carousel_wrapper .carousel#sampleResumeCarousel .slick-dots li{
+	display: none;
+}
+.carousel_wrapper .carousel#productListCarousel{
+	width: 100%;
+}
+.carousel_wrapper .carousel#productListCarousel .slick-list{
+	padding: 0px !important;
+}
+/*.carousel_wrapper .carousel#productListCarousel .slick-slide{
+	height: 300px;
+}*/
+.product_list_carousel .red_border{
+	height: 500px;
+    width: 70%;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    top: -30px;
+    bottom: 0;
+}
+.product_list_carousel.paddingTopBottom40{
+	padding-top: 90px;
+    padding-bottom: 70px;
+}
+
+.carousel_wrapper .carousel#productListCarousel .slick-dots li{
+	margin: 0px;
+}
+
+.carousel_wrapper .carousel#productListCarousel .slick-dots li button{
+	color: transparent;
+}
+
+.carousel_wrapper .carousel#productListCarousel .slick-dots li.slick-active button{
+	color: transparent;
+	min-width: initial;
+}
+.carousel_wrapper .carousel#productListCarousel .slick-dots li button:before{
+	content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 18px;
+    margin: auto;
+    width: 10px;
+    height: 5px;
+    border-radius: 4.5px;
+	background-color: #e5e5e5;
+}
+
+.carousel_wrapper .carousel#productListCarousel .slick-dots li.slick-active button:before{
+	width: 10px;
+	background-color: #6c3099;
+}
+
+.white_box{
+	width: 315px;
+	height: 330px;
+	border-radius: 8px;
+	background-color: #fff;
+	margin-bottom: 20px;
+}
+
+.white_box_smoll{
+	width: 145px;
+	height: 145px;
+	margin: 0 30px 8px 0;
+	border-radius: 8px;
+	background-color: #fff;
+}
+
+.resume_samples{
+	font-size: 22px;
+	font-weight: 500;
+	color: #ed1e79;
+	font-family: 'Montserrat', sans-serif;
+	margin-bottom: 10px;
+}
+
+.white_box_smoll_cont p{
+	font-size: 16px;
+	font-weight: 500;
+	color: #000;
+}
+
+
+
